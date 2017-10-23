@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <name>Design Patterns - Java</name>
+    <artifactId>design-patterns-java</artifactId>
+    <groupId>design.patterns.java</groupId>
+    <description>Design Patterns in Java - Examples, usages, etc.</description>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0</version>
+
+    <prerequisites>
+        <maven>2.0</maven>
+    </prerequisites>
+
+    <properties>
+        <jdk-version>1.8</jdk-version>
+        <parent-basedir>${project.basedir}/../</parent-basedir>
+    </properties>
+
+    <organization>
+        <name>Entertainment Partners</name>
+        <url>http://entertainmentpartners.com</url>
+    </organization>
+
+    <repositories>
+
+        <repository>
+            <id>mvn-central</id>
+            <name>MVNRepository.com</name>
+            <url>http://central.maven.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+    </repositories>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+	</project>

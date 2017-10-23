@@ -1,0 +1,14 @@
+# ignore class files.
+*.class
+
+# IntelliJ .idea folder
+.idea/
+
+# IntelliJ project file generated for maven projects.
+*.[iI][mM][Ll]
+
+# target folder where compiled code lands
+target/
+
+# virtual machine crash logs
+hs_err_pid*
